@@ -1,0 +1,36 @@
+# Python 虚拟环境（不要提交，体积很大）
+.venv/
+venv/
+env/
+
+# Python 缓存与编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# 下载的 OpenCV / NumPy / pip 安装包
+downloads/
+*.whl
+
+# 临时文件
+.tmp/
+
+# 示例脚本生成的图片（运行 demo.py 会重新生成）
+demo_output.png
+
+# IDE / 编辑器配置
+.idea/
+.vscode/
+
+# 测试与构建缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# 操作系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
